@@ -6,11 +6,11 @@
         {
             Console.WriteLine("Welcome to User Registration for Validation \n");
             
-            Console.WriteLine("Enter the First Name : \n");
-            string firstName = Console.ReadLine();
+            Console.WriteLine("Enter the Last Name : \n");
+            string lastName = Console.ReadLine();
 
             Patterns patterns = new Patterns();
-            bool isValid = patterns.ValidateFirstName(firstName);
+            bool isValid = patterns.ValidateFirstName(lastName);
             if (isValid)
             {
                 Console.WriteLine("Valid");
