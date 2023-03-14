@@ -9,7 +9,7 @@ namespace UserRegistrationRegex
 {
     public class Patterns
     {
-        public static string Regex_Rule = "^[A-za-z0-9]+([._#%][A-Za-z0-9]+)*[@][A-za-z]+[.][A-Za-z]{2,}([.][A-Za-z]{2})?$";
+        public static string Regex_Rule = "^[+]?[0-9-]{1,7}[ ][6-9][0-9]{9}$";
 
         public bool ValidateFirstName(string inputString)
         {
